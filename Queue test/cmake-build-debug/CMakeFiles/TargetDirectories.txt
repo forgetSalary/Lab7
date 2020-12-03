@@ -1,0 +1,3 @@
+D:/CPrctc/C Graphs/Queue test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/CPrctc/C Graphs/Queue test/cmake-build-debug/CMakeFiles/Queue_test.dir
+D:/CPrctc/C Graphs/Queue test/cmake-build-debug/CMakeFiles/edit_cache.dir

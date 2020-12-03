@@ -1,0 +1,140 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/code/CGraphs 1.1/main.c
+tests.h
+C:/code/CGraphs 1.1/tests.h
+
+C:/code/CGraphs 1.1/modules/bfs.h
+listsGraph.h
+C:/code/CGraphs 1.1/modules/listsGraph.h
+tools.h
+C:/code/CGraphs 1.1/modules/tools.h
+
+C:/code/CGraphs 1.1/modules/coloring.h
+listsGraph.h
+C:/code/CGraphs 1.1/modules/listsGraph.h
+dfs.h
+C:/code/CGraphs 1.1/modules/dfs.h
+bfs.h
+C:/code/CGraphs 1.1/modules/bfs.h
+
+C:/code/CGraphs 1.1/modules/dfs.h
+listsGraph.h
+C:/code/CGraphs 1.1/modules/listsGraph.h
+tools.h
+C:/code/CGraphs 1.1/modules/tools.h
+
+C:/code/CGraphs 1.1/modules/extern/al_string.h
+malloc.h
+-
+stdarg.h
+C:/code/CGraphs 1.1/modules/extern/stdarg.h
+
+C:/code/CGraphs 1.1/modules/extern/array.h
+stdlib.h
+-
+stdint.h
+-
+stdio.h
+-
+assert.h
+-
+
+C:/code/CGraphs 1.1/modules/extern/consoleColors.h
+windows.h
+-
+stdio.h
+-
+
+C:/code/CGraphs 1.1/modules/extern/limitedQueue.h
+malloc.h
+C:/code/CGraphs 1.1/modules/extern/malloc.h
+string.h
+C:/code/CGraphs 1.1/modules/extern/string.h
+
+C:/code/CGraphs 1.1/modules/extern/stretchy_buffers.h
+stdint.h
+-
+stddef.h
+-
+malloc.h
+-
+assert.h
+-
+string.h
+-
+
+C:/code/CGraphs 1.1/modules/extern/tools.h
+stdbool.h
+-
+limitedQueue.h
+C:/code/CGraphs 1.1/modules/extern/limitedQueue.h
+stretchy_buffers.h
+C:/code/CGraphs 1.1/modules/extern/stretchy_buffers.h
+al_string.h
+C:/code/CGraphs 1.1/modules/extern/al_string.h
+array.h
+C:/code/CGraphs 1.1/modules/extern/array.h
+
+C:/code/CGraphs 1.1/modules/lists.h
+stdio.h
+-
+string.h
+-
+extern/tools.h
+C:/code/CGraphs 1.1/modules/extern/tools.h
+vertex.h
+C:/code/CGraphs 1.1/modules/vertex.h
+extern/consoleColors.h
+C:/code/CGraphs 1.1/modules/extern/consoleColors.h
+
+C:/code/CGraphs 1.1/modules/listsGraph.h
+lists.h
+C:/code/CGraphs 1.1/modules/lists.h
+matrixgraph.h
+C:/code/CGraphs 1.1/modules/matrixgraph.h
+
+C:/code/CGraphs 1.1/modules/matrix.h
+extern/tools.h
+C:/code/CGraphs 1.1/modules/extern/tools.h
+stdio.h
+C:/code/CGraphs 1.1/modules/stdio.h
+
+C:/code/CGraphs 1.1/modules/matrixgraph.h
+stdio.h
+-
+string.h
+-
+vertex.h
+C:/code/CGraphs 1.1/modules/vertex.h
+matrix.h
+C:/code/CGraphs 1.1/modules/matrix.h
+
+C:/code/CGraphs 1.1/modules/vertex.h
+stdarg.h
+C:/code/CGraphs 1.1/modules/stdarg.h
+extern/consoleColors.h
+C:/code/CGraphs 1.1/modules/extern/consoleColors.h
+
+C:/code/CGraphs 1.1/tests.c
+tests.h
+C:/code/CGraphs 1.1/tests.h
+
+C:/code/CGraphs 1.1/tests.h
+modules/bfs.h
+C:/code/CGraphs 1.1/modules/bfs.h
+modules/dfs.h
+C:/code/CGraphs 1.1/modules/dfs.h
+modules/coloring.h
+C:/code/CGraphs 1.1/modules/coloring.h
+stdio.h
+C:/code/CGraphs 1.1/stdio.h
+time.h
+C:/code/CGraphs 1.1/time.h
+
