@@ -70,7 +70,7 @@ void dfs_lists(list_graph_t* graph, int v_index, int* dist, int** component, boo
 void hard_stack_matrix(mtrx_grph_t* graph, bool* visited, int v_index){
     visited[v_index]=true;
 
-    printf("%d,",graph->vertexes[v_index]);
+    printf("%d,",graph->vertexes[v_index].name);
     for (int i=0; i<graph->size; i++){
         if (graph->matrix[v_index][i] && !visited[i]){
             hard_stack_matrix(graph,visited,i);

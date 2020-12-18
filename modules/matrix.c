@@ -1,8 +1,30 @@
 #include "matrix.h"
 
-void init_empty_matrix(int** matrix, int size){
-    for (int i=0; i<size; i++){
-        for (int j=0; j<size;j++ ){
+int col_sum(int** matrix, int rows_count, size_t column){
+    int sum = 0;
+    FOR(i,rows_count){
+        sum+=matrix[i][column];
+    }
+    return sum;
+}
+
+int row_sum(int** matrix, size_t cols_count, size_t row){
+    int sum = 0;
+    FOR(i,cols_count){
+        sum+=matrix[row][i];
+    }
+    return sum;
+}
+
+void matcpy(int** dst, int** src, size_t size){
+    for (int i = 0; i < size; ++i) {
+        memcpy(dst[i],src[i],sizeof(int)*size);
+    }
+}
+
+void init_empty_matrix(int** matrix, int rows_count, int cols_count){
+    for (int i=0; i<rows_count; i++){
+        for (int j=0; j<cols_count;j++ ){
             matrix[i][j]=0;
         }
     }
@@ -75,6 +97,16 @@ void init_bin_oriented_matrix(int** matrix, int size, float chance){
     //обнуление диагонали
     for (i=0; i<size; i++){
         matrix[i][i] = 0;
+    }
+}
+
+void init_bin_incidence_matrix(int** matrix, int vc, int ec, float chance){
+    int another_vertex;
+    FOR(i,vc){
+        FOR(j,ec){
+            matrix[i][j] = one_or_zero(chance);
+            another_vertex = random_int(0,i);
+        }
     }
 }
 

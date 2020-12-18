@@ -18,10 +18,10 @@
 
 int** indp_sets(mtrx_grph_t* graph);
 
+int** indp_sets_removing(mtrx_grph_t* graph);
+
 int color_graph(mtrx_grph_t* graph,int** colors);
 
 void log_indp_sets(FILE* stream, int** sets);
-
-void log_indp_sets_to_json(FILE* stream, int** sets);
 
 void free_indp_sets(int** sets);

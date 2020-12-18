@@ -289,6 +289,33 @@ modules\extern\array.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.s
 .PHONY : modules\extern\array.c.s
 
+modules\extern\cgi.obj: modules\extern\cgi.c.obj
+
+.PHONY : modules\extern\cgi.obj
+
+# target to build an object file
+modules\extern\cgi.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.obj
+.PHONY : modules\extern\cgi.c.obj
+
+modules\extern\cgi.i: modules\extern\cgi.c.i
+
+.PHONY : modules\extern\cgi.i
+
+# target to preprocess a source file
+modules\extern\cgi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.i
+.PHONY : modules\extern\cgi.c.i
+
+modules\extern\cgi.s: modules\extern\cgi.c.s
+
+.PHONY : modules\extern\cgi.s
+
+# target to generate assembly for a file
+modules\extern\cgi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.s
+.PHONY : modules\extern\cgi.c.s
+
 modules\extern\consoleColors.obj: modules\extern\consoleColors.c.obj
 
 .PHONY : modules\extern\consoleColors.obj
@@ -532,6 +559,33 @@ modules\vertex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.s
 .PHONY : modules\vertex.c.s
 
+modules\weighted_graphs.obj: modules\weighted_graphs.c.obj
+
+.PHONY : modules\weighted_graphs.obj
+
+# target to build an object file
+modules\weighted_graphs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.obj
+.PHONY : modules\weighted_graphs.c.obj
+
+modules\weighted_graphs.i: modules\weighted_graphs.c.i
+
+.PHONY : modules\weighted_graphs.i
+
+# target to preprocess a source file
+modules\weighted_graphs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.i
+.PHONY : modules\weighted_graphs.c.i
+
+modules\weighted_graphs.s: modules\weighted_graphs.c.s
+
+.PHONY : modules\weighted_graphs.s
+
+# target to generate assembly for a file
+modules\weighted_graphs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.s
+.PHONY : modules\weighted_graphs.c.s
+
 tests.obj: tests.c.obj
 
 .PHONY : tests.obj
@@ -586,6 +640,9 @@ help:
 	@echo ... modules/extern/array.obj
 	@echo ... modules/extern/array.i
 	@echo ... modules/extern/array.s
+	@echo ... modules/extern/cgi.obj
+	@echo ... modules/extern/cgi.i
+	@echo ... modules/extern/cgi.s
 	@echo ... modules/extern/consoleColors.obj
 	@echo ... modules/extern/consoleColors.i
 	@echo ... modules/extern/consoleColors.s
@@ -613,6 +670,9 @@ help:
 	@echo ... modules/vertex.obj
 	@echo ... modules/vertex.i
 	@echo ... modules/vertex.s
+	@echo ... modules/weighted_graphs.obj
+	@echo ... modules/weighted_graphs.i
+	@echo ... modules/weighted_graphs.s
 	@echo ... tests.obj
 	@echo ... tests.i
 	@echo ... tests.s

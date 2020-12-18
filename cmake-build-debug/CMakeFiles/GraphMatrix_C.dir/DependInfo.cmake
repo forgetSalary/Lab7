@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/code/CGraphs 1.1/modules/dfs.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/dfs.c.obj"
   "C:/code/CGraphs 1.1/modules/extern/al_string.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/extern/al_string.c.obj"
   "C:/code/CGraphs 1.1/modules/extern/array.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/extern/array.c.obj"
+  "C:/code/CGraphs 1.1/modules/extern/cgi.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/extern/cgi.c.obj"
   "C:/code/CGraphs 1.1/modules/extern/consoleColors.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/extern/consoleColors.c.obj"
   "C:/code/CGraphs 1.1/modules/extern/limitedQueue.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/extern/limitedQueue.c.obj"
   "C:/code/CGraphs 1.1/modules/extern/stretchy_buffers.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/extern/stretchy_buffers.c.obj"
@@ -19,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/code/CGraphs 1.1/modules/matrix.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/matrix.c.obj"
   "C:/code/CGraphs 1.1/modules/matrixgraph.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/matrixgraph.c.obj"
   "C:/code/CGraphs 1.1/modules/vertex.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/vertex.c.obj"
+  "C:/code/CGraphs 1.1/modules/weighted_graphs.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/modules/weighted_graphs.c.obj"
   "C:/code/CGraphs 1.1/tests.c" "C:/code/CGraphs 1.1/cmake-build-debug/CMakeFiles/GraphMatrix_C.dir/tests.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")

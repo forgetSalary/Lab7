@@ -18,8 +18,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="GraphMatrix_C">
-				<Option output="C:/code/CPrctc/C Graphs/cmake-build-debug/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/code/CPrctc/C graphs/cmake-build-debug"/>
+				<Option output="C:/code/CGraphs 1.1/cmake-build-debug/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/CGraphs 1.1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -34,8 +34,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="GraphMatrix_C/fast">
-				<Option output="C:/code/CPrctc/C Graphs/cmake-build-debug/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/code/CPrctc/C graphs/cmake-build-debug"/>
+				<Option output="C:/code/CGraphs 1.1/cmake-build-debug/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/CGraphs 1.1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -103,6 +103,12 @@
 		<Unit filename="C:/code/CGraphs 1.1/modules/extern/array.h">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
+		<Unit filename="C:/code/CGraphs 1.1/modules/extern/cgi.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="C:/code/CGraphs 1.1/modules/extern/cgi.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
 		<Unit filename="C:/code/CGraphs 1.1/modules/extern/consoleColors.c">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
@@ -155,6 +161,12 @@
 			<Option target="GraphMatrix_C"/>
 		</Unit>
 		<Unit filename="C:/code/CGraphs 1.1/modules/vertex.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="C:/code/CGraphs 1.1/modules/weighted_graphs.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="C:/code/CGraphs 1.1/modules/weighted_graphs.h">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
 		<Unit filename="C:/code/CGraphs 1.1/tests.c">

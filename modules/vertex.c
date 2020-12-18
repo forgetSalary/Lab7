@@ -23,10 +23,10 @@ int chrcount(const char* _String,char _Byte){
 }
 
 void print_vertex(const char* format, vertex v){
-    char* index = strchr(format,'v');
-    index[0]='d';
+    char* index = strstr(format,"%v");
+    index[1]='d';
     set_color(v.color);
     printf(format,v.name);
-    index[0]='v';
+    index[1]='v';
     set_color(DEFAULT_CONSOLE_COLOR);
 }

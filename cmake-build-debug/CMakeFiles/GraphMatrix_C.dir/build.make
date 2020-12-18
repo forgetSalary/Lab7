@@ -365,6 +365,44 @@ CMakeFiles\GraphMatrix_C.dir\modules\extern\stretchy_buffers.c.s: cmake_force
  /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\GraphMatrix_C.dir\modules\extern\stretchy_buffers.c.s /c "C:\code\CGraphs 1.1\modules\extern\stretchy_buffers.c"
 <<
 
+CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.obj: CMakeFiles\GraphMatrix_C.dir\flags.make
+CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.obj: ..\modules\weighted_graphs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\code\CGraphs 1.1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/GraphMatrix_C.dir/modules/weighted_graphs.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.obj /FdCMakeFiles\GraphMatrix_C.dir\ /FS -c "C:\code\CGraphs 1.1\modules\weighted_graphs.c"
+<<
+
+CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GraphMatrix_C.dir/modules/weighted_graphs.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\code\CGraphs 1.1\modules\weighted_graphs.c"
+<<
+
+CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GraphMatrix_C.dir/modules/weighted_graphs.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.s /c "C:\code\CGraphs 1.1\modules\weighted_graphs.c"
+<<
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.obj: CMakeFiles\GraphMatrix_C.dir\flags.make
+CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.obj: ..\modules\extern\cgi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\code\CGraphs 1.1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/GraphMatrix_C.dir/modules/extern/cgi.c.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.obj /FdCMakeFiles\GraphMatrix_C.dir\ /FS -c "C:\code\CGraphs 1.1\modules\extern\cgi.c"
+<<
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GraphMatrix_C.dir/modules/extern/cgi.c.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\code\CGraphs 1.1\modules\extern\cgi.c"
+<<
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GraphMatrix_C.dir/modules/extern/cgi.c.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.s /c "C:\code\CGraphs 1.1\modules\extern\cgi.c"
+<<
+
 # Object files for target GraphMatrix_C
 GraphMatrix_C_OBJECTS = \
 "CMakeFiles\GraphMatrix_C.dir\main.c.obj" \
@@ -382,36 +420,40 @@ GraphMatrix_C_OBJECTS = \
 "CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.obj" \
 "CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj" \
 "CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.obj" \
-"CMakeFiles\GraphMatrix_C.dir\modules\extern\stretchy_buffers.c.obj"
+"CMakeFiles\GraphMatrix_C.dir\modules\extern\stretchy_buffers.c.obj" \
+"CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.obj" \
+"CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.obj"
 
 # External object files for target GraphMatrix_C
 GraphMatrix_C_EXTERNAL_OBJECTS =
 
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\main.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\tests.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\extern\al_string.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\modules\extern\stretchy_buffers.c.obj
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\build.make
-"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe": CMakeFiles\GraphMatrix_C.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\code\CGraphs 1.1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable \"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe\""
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\main.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\tests.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\al_string.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\stretchy_buffers.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\weighted_graphs.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\modules\extern\cgi.c.obj
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\build.make
+GraphMatrix_C.exe: CMakeFiles\GraphMatrix_C.dir\objects1.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\code\CGraphs 1.1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable GraphMatrix_C.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\GraphMatrix_C.dir --rc=rc --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\GraphMatrix_C.dir\objects1.rsp @<<
- /out:"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe" /implib:GraphMatrix_C.lib /pdb:"C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:GraphMatrix_C.exe /implib:GraphMatrix_C.lib /pdb:"C:\code\CGraphs 1.1\cmake-build-debug\GraphMatrix_C.pdb" /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
-CMakeFiles\GraphMatrix_C.dir\build: "C:\code\CPrctc\C Graphs\cmake-build-debug\GraphMatrix_C.exe"
+CMakeFiles\GraphMatrix_C.dir\build: GraphMatrix_C.exe
 
 .PHONY : CMakeFiles\GraphMatrix_C.dir\build
 

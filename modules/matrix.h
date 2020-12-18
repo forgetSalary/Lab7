@@ -21,8 +21,9 @@ for(int i=0; i<cols; i++){\
 \
 free(matrix);\
 
+int row_sum(int** matrix, size_t cols_count, size_t row);
 
-void define_matrx_poiners(int** m, int size);
+void matcpy(int** dst, int** src, size_t size);
 
 int** matrix_create(int size);
 
@@ -40,6 +41,8 @@ void init_random_oriented_matrix(int** matrix, int size, int max, float chance);
 
 void init_bin_oriented_matrix(int** matrix, int size, float chance);
 
-void init_empty_matrix(int** matrix, int size);
+void init_bin_incidence_matrix(int** matrix, int vc, int ec, float chance);
+
+void init_empty_matrix(int** matrix, int rows_count, int cols_count);
 
 void intmove(int* dst, int* src, int size);

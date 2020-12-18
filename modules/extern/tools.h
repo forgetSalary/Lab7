@@ -9,6 +9,8 @@
 #include "al_string.h"
 #include "array.h"
 
+
+#define HOME_DIR       "C:\\code\\CGraphs 1.1\\"
 #define JS_OUTPUT_PATH "C:\\code\\webLearning\\canvasGraph\\assets\\json\\coloredGraph.json"
 
 #define _VALUE_OF(type,pointer)      *((type*)pointer)
@@ -18,14 +20,12 @@
 #define del(ptr)                    free(ptr)
 
 #define _FOR_(index,range)          for(int index=0;index<range;index++)
-
+#define FOR(index,range)            _FOR_(index,range)
 
 #define and &&
 #define or ||
 
 int bytescmp(char* _buf1,char* _buf2,size_t size);
-
-int get_index(char value_is_ptr,void* array, int size, void* value, size_t value_size);
 
 void intmove(int* dst, int* src, int size);
 
